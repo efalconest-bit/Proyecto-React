@@ -1,0 +1,119 @@
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#f8f9fa;
+}
+
+/* NAVBAR */
+
+.navbar{
+  background:#2c3e50;
+  color:white;
+  padding:15px;
+}
+
+.navbar ul{
+  list-style:none;
+  display:flex;
+  gap:20px;
+  padding:0;
+}
+
+.navbar li{
+  cursor:pointer;
+}
+
+/* HERO */
+
+.hero{
+  text-align:center;
+  padding:40px 20px;
+}
+
+.hero h1{
+  color:#2c3e50;
+}
+
+.hero p{
+  color:black;
+}
+
+/* CONTADOR */
+
+.contador{
+  text-align:center;
+  padding:20px;
+}
+
+.contador h2,
+.contador p{
+  color:black;
+}
+
+.contador p{
+  font-size:24px;
+  font-weight:bold;
+}
+
+/* MARAVILLAS */
+
+.maravillas{
+  text-align:center;
+  padding:20px;
+}
+
+.maravillas h2{
+  color:black;
+}
+
+.cards{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:20px;
+}
+
+/* TARJETAS */
+
+.card{
+  width:250px;
+  background:#dbeafe;
+  padding:15px;
+  border-radius:8px;
+  box-shadow:0 2px 5px rgba(0,0,0,0.2);
+  text-align:center;
+}
+
+.card h3{
+  color:#1e3a8a;
+}
+
+.card p{
+  color:black;
+}
+
+.imagen-maravilla{
+  width:100%;
+  height:120px;
+  object-fit:cover;
+  border-radius:5px;
+  margin-top:10px;
+}
+
+/* BOTONES */
+
+button{
+  padding:8px 12px;
+  margin:5px;
+  cursor:pointer;
+}
+
+/* FOOTER */
+
+footer{
+  background:#2c3e50;
+  color:white;
+  text-align:center;
+  padding:15px;
+  margin-top:20px;
+}
